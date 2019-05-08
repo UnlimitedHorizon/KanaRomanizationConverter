@@ -3,7 +3,7 @@ import json
 
 from .romanization_list import romanization_list
 
-def str_kana_to_roman(s):
+def str_kana_to_roman_list(s):
     s_split = list(s)
     for i in range(len(s)):
         c = s[i]
